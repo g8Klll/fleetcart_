@@ -1,0 +1,35 @@
+{
+    "name": "fleetcart/payment",
+    "description": "The FleetCart Payment Module.",
+    "authors": [
+        {
+            "name": "Envay Soft",
+            "email": "envaysoft@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "instamojo/instamojo-php": "^0.4",
+        "paypal/paypal-checkout-sdk": "^1.0",
+        "paytm/js-checkout" : "dev-master",
+        "razorpay/razorpay": "^2.5",
+        "stripe/stripe-php": "^7.28",
+        "authorizenet/authorizenet": "^2.0",
+        "yabacon/paystack-php": "^2.2",
+        "mercadopago/dx-php": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Payment\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

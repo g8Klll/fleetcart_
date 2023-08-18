@@ -1,0 +1,8 @@
+.resend-link112 {
+    cursor: pointer;
+    color: #007BFF;
+    text-decoration: underline;
+}
+.resend-link112:hover {
+    text-decoration: none;
+}
